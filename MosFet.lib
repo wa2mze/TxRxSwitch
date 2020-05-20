@@ -1,0 +1,41 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# NDT2955
+#
+DEF NDT2955 Q 0 0 Y Y 1 F N
+F0 "Q" -106 143 60 H V R CNN
+F1 "NDT2955" 136 0 60 V V C CNN
+F2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "NDT2955" 200 500 60 H I L CNN "MPN"
+F5 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F6 "Transistors - FETs, MOSFETs - Single" 200 700 60 H I L CNN "Family"
+F7 "MOSFET P-CH 60V 2.5A SOT233-3" 200 1000 60 H I L CNN "Description"
+F8 "Alpha & Omega Semiconductor Inc." 200 1100 60 H I L CNN "Manufacturer"
+F9 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 -12 20 -12 N
+P 4 1 1 0 -15 0 -45 20 -45 -20 -15 0 F
+P 4 1 1 0 40 -10 20 20 60 20 40 -10 F
+X G 1 -300 -100 100 R 50 50 1 1 P
+X D 2 0 200 100 D 50 50 1 1 P
+X S 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
